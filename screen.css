@@ -1,0 +1,149 @@
+* {
+margin: 0;
+padding: 0;
+}
+
+body {
+background-color: #000000;
+}
+#wrapper {
+width: 1200px;
+/* margin: auto; */
+margin-left: 45px;
+background-color: #003333;
+}
+#overview {
+width: 650px;
+float: left;
+text-align: center;
+}
+#details {
+border: 1px solid #006666;
+width: 520px;
+float: left;
+padding: 0 0 0 20px;
+}
+.details2 {
+border: 1px solid #006666;
+padding: 0 0 0 20px;
+}
+.section {
+border-top: 2px solid #006666;
+padding-top: 24px;
+margin-top: 12px;
+}
+.toggle {
+width: 31%;
+padding: 10px;
+float: left;
+text-align: center;
+}
+.footer {
+color: #006666;
+text-align: center;
+}
+h1 {
+text-align: center;
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 36px;
+font-weight: bold;
+color: #CCCCFF;
+padding: 10px 0 4px 0;
+}
+h2 {
+text-align: center;
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 24px;
+font-weight: bold;
+color: #CCCCFF;
+padding: 6px 0 2px 0;
+}
+img {
+padding: 6px;
+}
+h3 {
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 18px;
+font-weight: bold;
+color: #CCCCFF;
+padding: 6px 0 2px 0;
+}
+ul, li, p, table, th, td {
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 16px;
+color: #CCCCFF;
+padding: 1px 0 2px 0;
+}
+table {
+border: 2px solid #CCCCFF;
+border-collapse: collapse;
+margin: 20px;
+}
+td, th {
+padding: 6px 10px;
+border: 2px solid #CCCCFF;
+text-align: center;
+}
+
+sup {
+font-size: 10px;
+}
+label {
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size: 16px;
+color: #CCCCFF;
+width: 120px;
+display: block;
+float: left;
+}
+ul {
+margin-left: 20px;
+}
+.clearBoth {
+clear: both;
+height:1px;
+}
+
+.drawingBoard {
+width: 550px;
+height: 560px;
+text-align: center;
+border: 1px solid #006666;
+margin: 10px;
+padding: 20px;
+position: relative;
+background-color: #0000FF;
+}
+
+.drawSection {
+background-color: #666666;
+width: 475px;
+height: 135px;
+position: relative;
+padding: 0px 0px 0px 0px;
+}
+
+#section1 {
+topx: 0;
+background-color: #222222;
+}
+
+#section2 {
+topx: 135px;
+background-color: #444444;
+}
+
+#section3 {
+topx: 270px;
+background-color: #666666;
+}
+
+#section4 {
+topx: 405px;
+background-color: #888888;
+}
+
+.drawButton {
+width: 119px;
+height: 25px;
+}
